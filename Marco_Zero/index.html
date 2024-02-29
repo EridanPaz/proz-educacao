@@ -3,46 +3,128 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Marco Zero - Recife</title>
+   <title>Recife</title>
 </head>
 <body>
-   <header style="display: flex; justify-content: space-between;">
-      <span style="display: flex; flex-direction: column;">
-         <h3 style="margin: 4px;">Recife</h3>
-         <img src="/assets/img/Recife-1.png" alt="Imagem de um monumento com a palavra RECIFE, pintado com arte popular">
-      </span>
-      <nav>
-         <a href="">
-            <img src="assets/img/marco-zero-2.png" alt="Imagem do Marco Zero, vista aérea.">    
-         </a>           
-      </nav>
-   </header>
-   <main>      
+   <header style="background-color: rgb(188, 193, 235); 
+                  height: 150px;
+                  display: flex;
+                  align-items: center;">
+
       <div>
-         <h1 style="display: flex; justify-content: center;">O Marco Zero</h1>
-      </div> 
-      <section style="display: flex">      
-         <div style="padding: 10px;">
-            <a href="https://blog.assistentedeviagem.com.br/marco-zero-em-recife-antigo/">
-               <img src="/assets/img/marco-zero-1.jpg" alt="Imagem do Marco Zero, Recife">
-            </a>
-         </div> 
-         <div style="width: 30%; margin: 10%; text-align: justify;">
-            <p>
-               O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto 
-               inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes 
-               na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval. 
-            </p>        
-         </div> 
-   </section>  
+         <img style="height: 100px; width: 100px;" 
+              src="./assets/img/guarda-chuva-frevo-3.png" alt="">
+      </div>
+
+      <div style="display: flex;
+                  justify-content: center;
+                  width: 85%;">
+         <h1>Visite o Recife</h1>      
+      </div>
+   </header>
+   <main>
+      <div style="width: 100%; display: flex; justify-content: center;">
+         <h2>Alguns pontos turísticos</h2>
+      </div>
+      <div style="display: flex; justify-content: space-between;">
+         <section style="display: flex;">
+            
+            <div class="marco__zero" style=" width: 400px;">
+               
+               <div style="display: flex; justify-content: center;">
+                  <h3>Marco Zero</h3>
+               </div>
+               
+               <div style="padding-left: 4px;">
+                  <a href="./pages/marco-zero.html">
+                     <img src="./assets/img/marco-zero-1.jpg" alt=""
+                     style="width: 390px;">
+                  </a>
+               </div>
+               
+               <div style="display: flex; text-align: justify; padding-left: 4px;">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, 
+                     ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+               </div>
+            </div>
+         </section>
+
+         <section style="display: flex;">
+            
+            <div class="instituto-brennant" style="width: 400px;">
+
+               <div style="display: flex; justify-content: center;">
+                  <h3>Instituto Brennant</h3>
+               </div>
+
+               <div>
+                  <a href="./pages/instituto-brennant.html">
+                     <img src="./assets/img/Instituto-Brennant.jpg" alt=""
+                        style="width: 390px;">
+                  </a>
+               </div>
+
+               <div style="display: flex; text-align: justify; padding-left: 4px;">
+                  <p>Localizado nas terras do antigo engenho São João, no bairro da Várzea, tem como missão a preservação, a difusão e 
+                     o acesso à cultura e herança material e imaterial, visando a promoção do capital humano e cultural.
+                  </p>
+               </div>
+            </div>
+         </section>
+
+         <section style="display: flex;">
+
+            <div class="marco__zero" style="width: 400px;">
+
+               <div style="display: flex; justify-content: center;">
+                  <h3>Forte das Cinco Pontas</h3>
+               </div>
+
+               <div >
+                  <a href="./pages/forte-das-cinco-pontas.html">
+                     <img src="./assets/img/Forte.jpg" alt=""
+                        style="width: 390px;">
+                  </a>
+               </div>
+
+               <div style="display: flex; text-align: justify; padding-left: 4px;">
+                  <p>O Forte das Cinco Pontas, em Recife-PE, foi inicialmente construído em 1630, por 
+                     ordem de Frederik Hendrik, Príncipe de Orange.
+                  </p>
+               </div>
+            </div>
+         </section> 
+      </div>        
    </main>
-   <footer>
-      <span>Marco Zero, Recife</span>
-      <ul>
-         <li>Facebook</li>
-         <li>Instagran</li>
-         <li>Linkedin</li>
-      </ul>
+   <footer style="display: flex; 
+                  height: 100px;
+                  background-color: rgb(188, 193, 235);">
+
+      <div style="width: 100%;
+                  display: flex; 
+                  justify-content: center; 
+                  align-items: center;
+                  padding-left: 7%;">
+         <a href="https://facebook.com">
+            <img src="./assets/img/logo-facebook.png" alt="Logo do Facebook"
+                 style="height: 28px; width: 28px;">
+         </a>
+         <a href="https://instagram.com">
+            <img src="./assets/img/logo-instagram.png" alt="Logo do Instagram"
+                 style="height: 28px; width: 28px; padding-left: 5px; padding-right: 5px;">
+         </a>
+         <a href="https://linkedin.com">
+            <img src="./assets/img/logo-linkedin.png" alt="Logo do Linkedin"
+                 style="height: 28px; width: 28px;">
+         </a>                  
+      </div>
+
+      <div style="width: 7%; text-align: right;">
+         <img style="height: 100px; 
+                     width: 100px;" 
+              src="./assets/img/guarda-chuva-frevo-3.png" alt="">         
+      </div>
    </footer>   
 </body>
-</html>
+</html> 
