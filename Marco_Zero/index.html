@@ -3,46 +3,40 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
    <title>Recife</title>
 </head>
 <body>
-   <header style="background-color: rgb(188, 193, 235); 
-                  height: 150px;
-                  display: flex;
-                  align-items: center;">
-
+   <header>
       <div>
-         <img style="height: 100px; width: 100px;" 
-              src="./assets/img/guarda-chuva-frevo-3.png" alt="">
+         <img class="header-img-left"
+					 src="./assets/img/guarda-chuva-frevo-3.png" alt="">
       </div>
 
-      <div style="display: flex;
-                  justify-content: center;
-                  width: 85%;">
+      <div class="visite__recife">
          <h1>Visite o Recife</h1>      
       </div>
    </header>
    <main>
-      <div style="width: 100%; display: flex; justify-content: center;">
+      <div class="main-div-top">
          <h2>Alguns pontos turísticos</h2>
       </div>
-      <div style="display: flex; justify-content: space-between;">
-         <section style="display: flex;">
+      <div class="main-div">
+         <section id="marco-zero">
             
-            <div class="marco__zero" style=" width: 400px;">
+            <div class="marco__zero">
                
-               <div style="display: flex; justify-content: center;">
+               <div class="marco__zero-title">
                   <h3>Marco Zero</h3>
                </div>
                
-               <div style="padding-left: 4px;">
+               <div  class="marco__zero-main-img">
                   <a href="./pages/marco-zero.html">
-                     <img src="./assets/img/marco-zero-1.jpg" alt=""
-                     style="width: 390px;">
+                     <img src="./assets/img/marco-zero-1.jpg" alt="">
                   </a>
                </div>
                
-               <div style="display: flex; text-align: justify; padding-left: 4px;">
+               <div class="marco__zero-descricao">
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, 
                      ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
@@ -50,22 +44,22 @@
             </div>
          </section>
 
-         <section style="display: flex;">
+         <section id="instituto-brennant">
             
-            <div class="instituto-brennant" style="width: 400px;">
+            <div class="instituto__brennant">
 
-               <div style="display: flex; justify-content: center;">
+               <div class="instituto__brennant-title">
                   <h3>Instituto Brennant</h3>
                </div>
 
                <div>
                   <a href="./pages/instituto-brennant.html">
                      <img src="./assets/img/Instituto-Brennant.jpg" alt=""
-                        style="width: 390px;">
+										 class="instituto__brennant-img">
                   </a>
                </div>
 
-               <div style="display: flex; text-align: justify; padding-left: 4px;">
+               <div class="instituto__brennant-descricao">
                   <p>Localizado nas terras do antigo engenho São João, no bairro da Várzea, tem como missão a preservação, a difusão e 
                      o acesso à cultura e herança material e imaterial, visando a promoção do capital humano e cultural.
                   </p>
@@ -73,22 +67,22 @@
             </div>
          </section>
 
-         <section style="display: flex;">
+         <section id="Forte">
 
-            <div class="marco__zero" style="width: 400px;">
+            <div class="forte">
 
-               <div style="display: flex; justify-content: center;">
+               <div class="Forte-title">
                   <h3>Forte das Cinco Pontas</h3>
                </div>
 
                <div >
                   <a href="./pages/forte-das-cinco-pontas.html">
                      <img src="./assets/img/Forte.jpg" alt=""
-                        style="width: 390px;">
+										 class="Forte-img">
                   </a>
                </div>
 
-               <div style="display: flex; text-align: justify; padding-left: 4px;">
+               <div class="Forte-descricao">
                   <p>O Forte das Cinco Pontas, em Recife-PE, foi inicialmente construído em 1630, por 
                      ordem de Frederik Hendrik, Príncipe de Orange.
                   </p>
@@ -97,33 +91,25 @@
          </section> 
       </div>        
    </main>
-   <footer style="display: flex; 
-                  height: 100px;
-                  background-color: rgb(188, 193, 235);">
+   <footer>
 
-      <div style="width: 100%;
-                  display: flex; 
-                  justify-content: center; 
-                  align-items: center;
-                  padding-left: 7%;">
+      <div class="midia-social">
          <a href="https://facebook.com">
             <img src="./assets/img/logo-facebook.png" alt="Logo do Facebook"
-                 style="height: 28px; width: 28px;">
+                 class="lateral-img">
          </a>
          <a href="https://instagram.com">
             <img src="./assets/img/logo-instagram.png" alt="Logo do Instagram"
-                 style="height: 28px; width: 28px; padding-left: 5px; padding-right: 5px;">
+                 class="center-img">
          </a>
          <a href="https://linkedin.com">
             <img src="./assets/img/logo-linkedin.png" alt="Logo do Linkedin"
-                 style="height: 28px; width: 28px;">
+                 class="lateral-img">
          </a>                  
       </div>
 
-      <div style="width: 7%; text-align: right;">
-         <img style="height: 100px; 
-                     width: 100px;" 
-              src="./assets/img/guarda-chuva-frevo-3.png" alt="">         
+      <div class="footer_right-img">
+         <img src="./assets/img/guarda-chuva-frevo-3.png" alt="">         
       </div>
    </footer>   
 </body>
